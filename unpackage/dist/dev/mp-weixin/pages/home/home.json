@@ -1,5 +1,11 @@
 {
   "navigationBarTitleText": "发现更多美",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "uni-segmented-control": "/components/uni-segmented-control/uni-segmented-control",
+    "recommend": "/components/recommend",
+    "category": "/components/category",
+    "news": "/components/news",
+    "album": "/components/album"
+  }
 }
