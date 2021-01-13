@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/horizontal/horizontal",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/video/video"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "发现更多美",
+    "navigationBarBackgroundColor": "#000"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#d4237a",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-fill.png"
+      },
+      {
+        "pagePath": "pages/horizontal/horizontal",
+        "text": "精美图片",
+        "iconPath": "static/icon/picture.png",
+        "selectedIconPath": "static/icon/picture-fill.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "精美视频",
+        "iconPath": "static/icon/video.png",
+        "selectedIconPath": "static/icon/video-fill.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "static/icon/search.png",
+        "selectedIconPath": "static/icon/search-fill.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "会员中心",
+        "iconPath": "static/icon/user.png",
+        "selectedIconPath": "static/icon/user-fill.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
